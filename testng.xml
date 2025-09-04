@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoQATests">
+    <test name="UI Tests">
+        <classes>
+            <class name="tests.CheckBoxTest"/>
+            <class name="tests.WebTablesTest"/>
+            <class name="tests.DynamicPropertiesTest"/>
+            <class name="tests.UploadTest"/>
+            <class name="tests.DatePickerTest"/>
+        </classes>
+    </test>
+</suite>
